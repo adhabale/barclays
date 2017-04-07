@@ -1,0 +1,29 @@
+{
+  "generator-jhipster": {
+    "baseName": "cigna",
+    "packageName": "com.capgemini",
+    "packageFolder": "com/capgemini",
+    "serverPort": "8008",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "jhiPrefix": "cg",
+    "enableTranslation": false,
+    "jhipsterVersion": "3.4.2",
+    "rememberMeKey": "41c81c31b2ca0a22d4d712406f2749da197449c6"
+  }
+}

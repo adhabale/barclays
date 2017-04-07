@@ -1,0 +1,44 @@
+{
+    "appswift": {
+        "continueTheming": true,
+        "shouldCommitCode": true,
+        "scmType": "git",
+        "scmUserName": "kkorada",
+        "scmPwd": "India@123",
+        "scmUrl": "https://github.com/kkorada/cigna.git"
+    },
+    "cicdSwift": {
+        "jenkinsProps": {
+            "uploadPlugins": false,
+            "scmCredId": "1486978609723scm",
+            "jenkinsProtocol": "http://",
+            "jenkinsPath": "/",
+            "jenkinsHostName": "10.102.22.60",
+            "jenkinsPort": 9999,
+            "jenkinsUserId": "kkorada",
+            "jenkinsPassword": "kkorada",
+            "cdoeMavenName": "maven3.3.3",
+            "cdoeSonarName": "sonar@10.102.22.59",
+            "scm": "git",
+            "codebaseUrl": "https://github.com/kkorada/cigna.git",
+            "scmUserId": "kkorada",
+            "scmPwd": "India@123"
+        },
+        "cfProps": {
+            "cfApiEndPoint": "http://api.run.pivotal.io",
+            "cfCredId": "1486978609723cf",
+            "createDbService": true,
+            "cfProfile": "prod",
+            "dbServiceName": "cleardb",
+            "dbServicePlanName": "spark",
+            "noOfInstances": 1,
+            "appMemory": 1024,
+            "appDiskQuota": 1024,
+            "cfOrg": "VS-Capgemini",
+            "cfSpace": "dev",
+            "cfAppName": "cigna",
+            "cfUserID": "vgupt007@gmail.com",
+            "cfPwd": "@kanbay123"
+        }
+    }
+}
